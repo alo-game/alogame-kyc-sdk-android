@@ -1,0 +1,24 @@
+plugins {
+    id 'java-base'
+    id 'maven-publish'
+}
+
+group = 'vn.alogame'
+version = '0.1.0'
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            artifact file('kyc-sdk.aar')
+
+            groupId    = 'vn.alogame'
+            artifactId = 'kyc-sdk'
+            version    = '0.1.0'
+        }
+    }
+}
