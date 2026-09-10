@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'vn.alogame'
-version = '1.0.0'
+version = '1.0.1'
 
 repositories {
     google()
@@ -18,7 +18,7 @@ publishing {
 
             groupId    = 'vn.alogame'
             artifactId = 'kyc-sdk'
-            version    = '1.0.0'
+            version    = '1.0.1'
         }
     }
 }
